@@ -27,42 +27,49 @@ main {
     gap: 20px;
 }
 
-.card img {
+.picture {
     width: 100%;
     border-radius: 10px;
 }
 
 .author {
     display: flex;
-    
-    
+    align-self: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 .author p{
     font-weight: 800;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .content p {
     
-    font-size: 16px;
+    font-size: 15px;
     color: hsl(0, 0%, 42%);
     font-weight: 500;
-    padding-top: 8px;
+    line-height: 1.5;
 }
 
-h1 {
+.content h1 {
     font-weight: 800;
     font-size: 23px;
-    padding-top: 8px;
 }
 .content{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
-span{
-    background-color: rgba(255, 255, 1, 0.756);
-    padding: 4px;
-    border-radius: 8px;
-    
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 12px;
+    border-radius: 4px;
+    align-self: flex-start;
+    font-weight: 800;
+}
+.avatar{
+    width: 30px;
+}
+time{
+    font-size: 14px;
 }
